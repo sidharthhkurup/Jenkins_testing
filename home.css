@@ -1,0 +1,59 @@
+
+.main{
+            display : flex;
+            flex-direction: column;
+             color: white;
+             margin: 30px;
+            background-color: black;
+            border-radius: 50px;
+}
+
+.main-div1{
+                display : flex;
+            flex-direction: row;
+            margin: 20px;   
+
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+button:hover {
+  background-color: #000000; 
+  color: aliceblue;
+  border-color: aliceblue;
+
+}
+
+.main-div2{
+                display : flex;
+            flex-direction: row;
+            
+}
+
+.main-div1-right{
+                    display : flex;
+            flex-direction: row;
+            margin-left: 500px;
+        
+}
+
+                .main-div1-right-home,
+
+                .main-div1-right-about,
+
+                .main-div1-right-product,
+
+                .main-div1-right-service,
+
+                .main-div1-right-contact{
+                        margin: 20px;
+                }
+.main-div2-right,.main-div2-left{
+    width:50%;
+     height:500px;
+     margin: 25px;
+}
